@@ -12,3 +12,8 @@
 ## 公開URL
 
 https://wararaki718.github.io/test-lp-pages/
+
+## Github Pages + Actions の設定方法
+
+Settings -> Pages -> Source で Github Actions を選択します。
+これで、Github Actions 側のデプロイ（`.github/workflows/deploy.yml`）が有効になり、`main` ブランチへのプッシュ時に自動的に GitHub Pages が更新されるようになります。
