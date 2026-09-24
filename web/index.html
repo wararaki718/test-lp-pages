@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sample LP</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+      color: #333;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 20px 40px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: #f5f7fa;
+    }
+
+    .hero h1 {
+      margin: 0 0 20px;
+      font-size: clamp(32px, 6vw, 56px);
+      line-height: 1.3;
+    }
+
+    .hero p {
+      margin: 0 auto;
+      max-width: 640px;
+      font-size: 18px;
+      color: #666;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 14px 32px;
+      border-radius: 6px;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 80px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      margin: 0 0 40px;
+      text-align: center;
+      font-size: 32px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .feature {
+      padding: 32px;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .feature p {
+      margin-bottom: 0;
+      color: #666;
+    }
+
+    .about {
+      background: #f5f7fa;
+    }
+
+    .about-content {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+      border-top: 1px solid #eee;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        padding: 16px 20px;
+      }
+
+      .hero {
+        padding: 70px 20px;
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Sample LP</div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>シンプルに、もっと便利に。</h1>
+
+      <p>
+        これは GitHub Pages で公開するための
+        サンプルランディングページです。
+      </p>
+
+      <a href="#features" class="button">詳しく見る</a>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container">
+
+        <h2 class="section-title">3つの特徴</h2>
+
+        <div class="features">
+
+          <div class="feature">
+            <h3>Feature 1</h3>
+            <p>
+              シンプルで分かりやすいサービスです。
+              初めての方でも簡単に利用できます。
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>Feature 2</h3>
+            <p>
+              必要な機能をまとめて、
+              スムーズな体験を提供します。
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>Feature 3</h3>
+            <p>
+              PCでもスマートフォンでも、
+              快適に閲覧できるレスポンシブデザインです。
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+      <div class="container">
+
+        <h2 class="section-title">Sample Content</h2>
+
+        <div class="about-content">
+          <p>
+            GitHub Repository に HTML ファイルを配置し、
+            GitHub Pages を利用してWebページとして公開しています。
+          </p>
+
+          <p>
+            このページを編集して push すると、
+            GitHub Pages 上のページも更新されます。
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 Sample LP
+  </footer>
+
+</body>
+</html>
