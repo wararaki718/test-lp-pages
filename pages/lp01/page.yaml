@@ -1,0 +1,20 @@
+title: "AI開発サービス"
+description: "AIを活用した開発支援サービスです。"
+
+hero:
+  title: "AIで開発をもっと効率的に"
+  text: "AIを活用して、開発プロセスを効率化します。"
+
+features:
+  - title: "AIコード生成"
+    text: "コード作成をAIで支援します。"
+
+  - title: "自動テスト"
+    text: "テスト作成・実行を自動化します。"
+
+  - title: "開発効率化"
+    text: "開発プロセス全体を効率化します。"
+
+cta:
+  text: "詳しくはこちら"
+  url: "https://example.com/"

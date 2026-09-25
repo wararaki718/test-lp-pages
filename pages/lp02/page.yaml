@@ -1,0 +1,17 @@
+title: "データ分析サービス"
+description: "データ分析を支援するサービスです。"
+
+hero:
+  title: "データから新しい発見を"
+  text: "データ分析を活用して、意思決定を支援します。"
+
+features:
+  - title: "データ可視化"
+    text: "データを分かりやすく可視化します。"
+
+  - title: "統計分析"
+    text: "統計的な分析を支援します。"
+
+cta:
+  text: "サービスを見る"
+  url: "https://example.com/"
