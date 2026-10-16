@@ -25,3 +25,5 @@ Settings -> Pages -> Source で Github Actions を選択します。
 | ① HTMLを直接配置          | HTMLを作ってGitHub Pagesで公開   |       △ |   ◎ |     △ |
 | ② LPごとのHTML + 一覧自動生成 | HTMLは直接作るが、一覧だけActionsで生成 |       ○ |   ◎ |     ○ |
 | ③ YAML → HTML自動生成    | YAMLだけ編集し、HTMLはActionsで生成 |   **◎** |   ○ | **◎** |
+
+test
